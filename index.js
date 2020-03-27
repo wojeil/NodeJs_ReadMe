@@ -1,6 +1,8 @@
 
 // Require all npm packages and files
-
+var inquirer = require("inquire");
+var fs = require("fs");
+console.log(inquirer);
 const questions = [
 // questions to user using "enquirer"
 ];
