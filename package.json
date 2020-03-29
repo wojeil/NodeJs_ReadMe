@@ -1,15 +1,29 @@
 {
-  "name": "static-site",
+  "name": "readme",
   "version": "1.0.0",
-  "description": "",
+  "description": "creating a readme with NodeJs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Wadih Ojeil",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
     "inquirer": "^6.5.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojeil/NodeJs_ReadMe.git"
+  },
+  "keywords": [
+    "Readme",
+    "node.js",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/wojeil/NodeJs_ReadMe/issues"
+  },
+  "homepage": "https://github.com/wojeil/NodeJs_ReadMe#readme"
 }
