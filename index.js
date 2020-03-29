@@ -2,6 +2,10 @@
 // Require all npm packages and files
 var inquirer = require("inquire");
 var fs = require('fs');
+var api = require("./utils/api.js");
+var generateMarkdown = require("./utils/generateMarkdown.js");
+
+
 const questions = [
 // questions to user using "enquirer"
 ];
