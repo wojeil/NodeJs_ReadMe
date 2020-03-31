@@ -51,28 +51,37 @@ const questions = [
 ];
 
 function init() {
-  const userNameMain= questions.username
+  
   inquirer
+  //all questions and answers above are in prompt below
   .prompt(questions)
-  .then(userNameMain => {
-    axios.get("curl https://api.github.com/users/"+ data.username)
-      .then(function(data){
-        return data.username;
-      })
-    
-     
+  .then(function({username}){
+    //axios call
+    axios.get("https://api.github.com/users/"+username)
+    .then(function(results){
+      //log to make sure you get results
+      console.log(results.data);
+      console.log(results.data.login);
+      const logIninfo =results.data.login;
+      const gitAccount=results.data;
+      
+    })
   
-    
-  
-    // Use user feedback for... whatever!!
+   .catch(function (error) {
+    // handle error
+    console.log(error);
   })
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
-  });
+
+  
+
+  // Use user feedback for... whatever!!
+})
+
+
+  
+
+  
+  
 
 // Logic for this app shoud be here. You can create more functions if you like. This is just a template for you to start your Homework but it is not required for you to use it.
 
