@@ -2,7 +2,7 @@
 // Require all npm packages and files
 var inquirer = require("inquirer");
 var fs = require('fs');
-var api = require("./utils/api.js");
+const axios = require('axios').default;
 var generateMarkdown = require("./utils/generateMarkdown.js");
 
 
@@ -49,9 +49,19 @@ const questions = [
   },
 // questions to user using "enquirer"
 ];
-inquirer
+
+function init() {
+  const userNameMain= questions.username
+  inquirer
   .prompt(questions)
-  .then(data => {
+  .then(userNameMain => {
+    axios.get("curl https://api.github.com/users/"+ data.username)
+      .then(function(data){
+        return data.username;
+      })
+    
+     
+  
     
   
     // Use user feedback for... whatever!!
@@ -63,7 +73,6 @@ inquirer
       // Something else when wrong
     }
   });
-function init() {
 
 // Logic for this app shoud be here. You can create more functions if you like. This is just a template for you to start your Homework but it is not required for you to use it.
 
