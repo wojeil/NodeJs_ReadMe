@@ -3,7 +3,7 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
 const axios = require('axios').default;
-var generateMarkdown = require("./utils/generateMarkdown.js");
+// var generateMarkdown = require("./utils/generateMarkdown.js");
 
 const questions = [
   {
@@ -64,7 +64,7 @@ function init() {
           const logIninfo = results.data.login;
           const gitAccount = results.data;
           console.log(logIninfo);
-          console.log(generateMarkdown);
+          // console.log(generateMarkdown);
           //confirmed all worked 
           //grab files and write and append on read me
           
@@ -91,9 +91,6 @@ function init() {
 
 
 
-    
-    
-  // 
 
   // Logic for this app shoud be here. You can create more functions if you like. This is just a template for you to start your Homework but it is not required for you to use it.
 
