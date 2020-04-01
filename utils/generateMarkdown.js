@@ -1,41 +1,41 @@
-function generateMarkdown(data) {
+function generateMarkdown(results) {
   return `
-# ${data.title}
+# ${results.title}
 
 
 ## Description 
 
-${data.description}
+${results.description}
 
 
 ## Table of Contents (Optional)
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
-* [Installation] ${data.installation}
-* [Usage] ${data.usage}
-* [Credits] ${data.contributing}
-* [License]${data.license}
+* [Installation] ${results.installation}
+* [Usage] ${results.usage}
+* [Credits] ${results.contributing}
+* [License]${results.license}
 
 
 ## Installation
 
-What are the steps required to install your project? ${data.installation}
+What are the steps required to install your project? ${results.installation}
 
 
 ## Usage 
-${data.usage}
+${results.usage}
 
 
 
 ## Credits
-${data.contributing}
+${results.contributing}
 
 
 
 
 ## License
-${data.license}
+${results.license}
 
 
 ---
@@ -66,4 +66,4 @@ Go the extra mile and write tests for your application. Then provide examples on
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown();
