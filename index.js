@@ -34,7 +34,7 @@ const questions = [
   {
     type: "rawlist",
     message: "Which license are you using?",
-    choices: ["APACHE 2.0","GPL 3.0","BSD 3","MIT",],
+    choices: ["APACHE2.0","GPL3.0","BSD3","MIT",],
     name: "license",
   },
   {
@@ -77,12 +77,10 @@ function init() {
           });
 
 
-        })
-
-      //  .catch(function (error) {
-      //   // handle error
-      //   console.log(error);
-      // })
+        }).catch(function (error) {
+        // handle error
+        console.log(error);
+      })
 
      
 
