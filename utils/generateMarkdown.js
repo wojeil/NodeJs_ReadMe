@@ -4,7 +4,7 @@ function generateMarkdown(results) {
 
   [![GitHub license](https://img.shields.io/badge/license-${results.license}-yellow.svg)](${results.html_url})
 
-${results.avatar}
+![My Github Profile Pic](${results.avatar})
 
 # ${results.title}
 
@@ -62,7 +62,8 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
-${results.html_url}
+
+You can contact me and check more of my work at ${results.html_url}
 
 
 

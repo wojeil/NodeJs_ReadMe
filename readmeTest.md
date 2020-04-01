@@ -1,16 +1,16 @@
 
 
 
-  [![GitHub license](https://img.shields.io/badge/license-BSD3-yellow.svg)](https://github.com/wojeil)
+  [![GitHub license](https://img.shields.io/badge/license-APACHE2.0-yellow.svg)](https://github.com/wojeil)
 
-https://avatars0.githubusercontent.com/u/61097252?v=4
+![My Github Profile Pic](https://avatars0.githubusercontent.com/u/61097252?v=4)
 
-# fhwlff
+# fewfw
 
 
 ## Description 
 
-fweff
+wfwf
 
 
 ## Table of Contents (Optional)
@@ -18,9 +18,9 @@ fweff
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
 * [Installation] fwf
-* [Usage] fwfw
-* [Credits] akfbwkf
-* [License]BSD3
+* [Usage] wfwf
+* [Credits] dwdd
+* [License]APACHE2.0
 
 
 ## Installation
@@ -29,18 +29,18 @@ What are the steps required to install your project? fwf
 
 
 ## Usage 
-fwfw
+wfwf
 
 
 
 ## Credits
-akfbwkf
+dwdd
 
 
 
 
 ## License
-BSD3
+APACHE2.0
 
 
 ---
