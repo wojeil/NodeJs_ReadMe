@@ -3,7 +3,7 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
 const axios = require('axios').default;
-// var generateMarkdown = require("./utils/generateMarkdown.js");
+ var generateMarkdown = require("./utils/generateMarkdown.js");
 
 const questions = [
   {
@@ -54,22 +54,21 @@ function init() {
   inquirer
     //all questions and answers above are in prompt below
     .prompt(questions)
-    .then(function ({ username }) {
+    .then(function (results) {
       //axios call
-      axios.get("https://api.github.com/users/" + username)
-        .then(function (results) {
+      axios.get("https://api.github.com/users/" + results.username)
+        .then(function (res) {
           //log to make sure you get results
-          console.log(results.data);
-          console.log(results.data.login);
-          const logIninfo = results.data.login;
-          const gitAccount = results.data;
-          console.log(logIninfo);
-          // console.log(generateMarkdown);
+          console.log(res.data);
+          console.log(res.data.login);
+         //adding my properties to my inquirer object
+        results.html_url = res.data.html_url
+        results.avatar = res.data.avatar_url
           //confirmed all worked 
           //grab files and write and append on read me
           
            
-          fs.writeFile("readmeTest.md", logIninfo,function (error) {
+          fs.writeFile("readmeTest.md", generateMarkdown(results),function (error) {
             if (error) {
               return console.log(error);
             }
