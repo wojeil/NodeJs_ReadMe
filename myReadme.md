@@ -1,46 +1,46 @@
 
 
 
-  [![GitHub license](https://img.shields.io/badge/license-APACHE2.0-yellow.svg)](https://github.com/wojeil)
+  [![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/wojeil)
 
 ![My Github Profile Pic](https://avatars0.githubusercontent.com/u/61097252?v=4)
 
-# fewfw
+# Readme
 
 
 ## Description 
 
-wfwf
+ReadMe Generator
 
 
 ## Table of Contents (Optional)
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
-* [Installation] fwf
-* [Usage] wfwf
-* [Credits] dwdd
-* [License]APACHE2.0
+* [Installation] inquierer axios
+* [Usage] To be able to get a readme file for any project a user would work on without having to retype it all over again.
+* [Credits] Wadih Ojeil
+* [License]MIT
 
 
 ## Installation
 
-What are the steps required to install your project? fwf
+What are the steps required to install your project? inquierer axios
 
 
 ## Usage 
-wfwf
+To be able to get a readme file for any project a user would work on without having to retype it all over again.
 
 
 
 ## Credits
-dwdd
+Wadih Ojeil
 
 
 
 
 ## License
-APACHE2.0
+MIT
 
 
 ---
@@ -61,7 +61,8 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
-https://github.com/wojeil
+
+You can contact me and check more of my work at https://github.com/wojeil
 
 
 
