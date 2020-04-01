@@ -1,4 +1,8 @@
 
+
+[![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)]
+
+
 # f
 
 
@@ -14,7 +18,7 @@ If your README is very long, add a table of contents to make it easy for users t
 * [Installation] f
 * [Usage] f
 * [Credits] f
-* [License]f
+* [License]APACHE 2.0
 
 
 ## Installation
@@ -34,7 +38,7 @@ f
 
 
 ## License
-f
+APACHE 2.0
 
 
 ---
@@ -57,8 +61,7 @@ If you created an application or package and would like other developers to cont
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
 https://github.com/wojeil
 
----
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
 
 
 

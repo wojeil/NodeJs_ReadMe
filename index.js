@@ -32,8 +32,9 @@ const questions = [
     name: "usage",
   },
   {
-    type: "input",
+    type: "rawlist",
     message: "Which license are you using?",
+    choices: ["APACHE 2.0","GPL 3.0","BSD 3","MIT",],
     name: "license",
   },
   {
