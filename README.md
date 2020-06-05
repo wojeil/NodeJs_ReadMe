@@ -1,6 +1,6 @@
 # NodeJs_ReadMe
 
-<img src= (https://user-images.githubusercontent.com/60321934/82580850-bfc76100-9b5d-11ea-9ad8-3bb3a71708f5.png) width="100" height="100">
+<img src= "./image/appImage.png" width="350" height="200">
 
 
 
@@ -19,6 +19,9 @@ Install
 
 Deployment
 Node.js
+
+Try Me Live
+Fork Repo and run node index.js in console.
 
 Built With
 Node.js
@@ -40,6 +43,6 @@ To create convenient readme files to use for future projects.
 Install all the dependencies with NPM
 `install` <br>
 Then start the project
-`npm start`
+` node index.js`
 
 
